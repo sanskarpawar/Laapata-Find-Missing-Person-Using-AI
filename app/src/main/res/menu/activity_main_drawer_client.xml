@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/add_credit_id"
+        android:title="My Profile"
+        android:icon="@drawable/person_icon"
+        />
+
+    <item android:id="@+id/chatitem"
+        android:title="Chat"
+        android:icon="@drawable/chat_black"
+        />
+    <item android:id="@+id/payment_details_id"
+        android:title="Reported Cases"
+        android:icon="@drawable/person_icon"
+        />
+
+    <item android:id="@+id/resolvedcasesitem"
+        android:title="Resolved Cases"
+        android:icon="@drawable/ic_check_black_24dp"
+        />
+
+    <item android:id="@+id/police_stations"
+        android:title="Police Stations"
+        android:icon="@drawable/police_icon"
+        android:visible="false"
+        />
+
+
+<!--    <item android:id="@+id/policy_id"-->
+<!--        android:icon="@drawable/privacy_icon_layer"-->
+<!--        android:title="Privacy Policy"/>-->
+
+
+    <item android:id="@+id/logout_id"
+        android:icon="@drawable/signout_icon"
+        android:title="LogOut"/>
+
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- When item pressed this item will be triggered -->
+    <item android:state_pressed="true"><shape android:shape="rectangle">
+        <corners android:radius="3dp" />
+
+        <solid android:color="@android:color/transparent" />
+
+        <corners
+            android:radius="20dp"
+            />
+        <stroke
+            android:width="5dp"
+            android:color="#99EFF1F1"
+            />
+
+    </shape></item>
+
+    <!-- By default the background will be this item -->
+    <item><shape android:shape="rectangle">
+        <corners android:radius="3dp" />
+
+        <solid
+            android:color="#fff"
+            />
+        <corners
+            android:radius="20dp"
+            />
+        <stroke
+            android:width="5dp"
+            android:color="#94E6E6E6"
+            />
+
+    </shape></item>
+
+</selector>

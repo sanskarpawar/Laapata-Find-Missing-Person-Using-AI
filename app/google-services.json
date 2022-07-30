@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "152491622159",
+    "project_id": "find-missing-person-usin-38bdd",
+    "storage_bucket": "find-missing-person-usin-38bdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152491622159:android:61fa0edb83c0281b8e887a",
+        "android_client_info": {
+          "package_name": "com.laapata.findmissingperson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152491622159-l0hhcm52p9unt60iu4ge06dta4dhpjtd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.laapata.findmissingperson",
+            "certificate_hash": "8ece974e972fd00a02cf062fa8ac0ddc5a9f4b2f"
+          }
+        },
+        {
+          "client_id": "152491622159-3fd4rve6372upaslqiucbi7hpd5ep21a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd2BNZVLSchDgCeilByx7U4qWNATnAC8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152491622159-3fd4rve6372upaslqiucbi7hpd5ep21a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

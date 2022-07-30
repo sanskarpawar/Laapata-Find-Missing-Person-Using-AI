@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_info_window_layout_parent"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="@dimen/_220sdp"
+    android:background="@drawable/bg_custom_info_window"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="@dimen/_56sdp"
+        android:layout_height="@dimen/_56sdp"
+        app:civ_border_width="2dp"
+        android:layout_gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/police_icon"
+        app:tint="@color/colorPrimary"
+        android:tint="@color/colorPrimary"
+      />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/iv_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Title here"
+        />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Example@example.com"
+        />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Address"
+        />
+
+    <Button
+        android:id="@+id/phoneBtn"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_28sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:textAllCaps="false"
+        android:background="@drawable/roundshap"
+        android:text="Phone"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/call_small"
+        android:drawableLeft="@drawable/call_small"
+        android:drawablePadding="@dimen/_5sdp"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/chatBtn"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_1sdp"
+        android:paddingRight="@dimen/_1sdp" />
+
+
+    <Button
+        android:id="@+id/chatBtn"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_28sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        android:textAllCaps="false"
+        android:background="@drawable/roundshap"
+        android:text="Chat"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/chat_white"
+        android:drawableLeft="@drawable/chat_white"
+        android:drawablePadding="@dimen/_5sdp"
+        app:layout_constraintTop_toBottomOf="@+id/tvAddress"
+        app:layout_constraintStart_toEndOf="@+id/phoneBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_1sdp"
+        android:paddingRight="@dimen/_1sdp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

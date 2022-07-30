@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/login"
+tools:context=".Dashboard.Fragments.CasesViewActivity"
+    >
+    <androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:id="@+id/toolbar_dashboard"
+    android:layout_height="60dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/backarrowicon"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/backicon">
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="Missing Person"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/black"
+            >
+        </TextView>
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:background="#fff"
+    android:layout_marginTop="10dp"
+    android:layout_below="@+id/toolbar_dashboard"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    app:cardCornerRadius="5dp"
+    android:id="@+id/search_card_none_explore"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:id="@+id/root_searchview_explore"
+
+        >
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:iconifiedByDefault="false"
+            app:queryBackground="@android:color/transparent"
+            android:showDividers="none"
+            android:layout_centerVertical="true"
+            android:id="@+id/searchEt_explore"
+            />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:layout_below="@+id/search_card_none_explore"
+    android:nestedScrollingEnabled="false"
+    android:overScrollMode="never"
+    android:id="@+id/recyclerview_id_explore"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="No data to show"
+    android:textStyle="bold"
+    android:layout_centerInParent="true"
+    android:visibility="gone"
+    android:id="@+id/empty_tv_id_explore"
+    />
+<!--
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/fab_add_explore"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:layout_margin="20dp"
+    android:visibility="gone"
+    app:backgroundTint="@color/doctorColorMain"
+    android:src="@drawable/add_white"
+    />
+-->
+
+</RelativeLayout>

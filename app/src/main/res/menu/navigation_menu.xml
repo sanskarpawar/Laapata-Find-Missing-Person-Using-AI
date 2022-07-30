@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/f1"
+        android:icon="@drawable/search_white"
+        android:title="Missing Person"
+        />
+    <item
+        android:id="@+id/f2"
+        android:icon="@drawable/chat_white"
+        android:title="Chats"
+        />
+    <item
+        android:id="@+id/f3"
+        android:icon="@drawable/appoinntment_white"
+        android:title="Founded Person"
+        />
+    <item
+        android:id="@+id/f4"
+        android:icon="@drawable/person_filled_white"
+        android:title="Profile"
+        />
+</menu>

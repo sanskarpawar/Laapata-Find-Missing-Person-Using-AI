@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/login"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard.Activities.Fp_Report_Details">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_dashboard"
+        android:layout_height="60dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/backarrowicon"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/backicon">
+            </de.hdodenhof.circleimageview.CircleImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:text="Missing Person"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/black"
+                >
+            </TextView>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_dashboard"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+
+            >
+            <!--...Edittext 1...-->
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:id="@+id/mpimage"
+                android:src="@drawable/person_white"
+                android:layout_height="150dp">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+            <TextView
+                style="@style/textViewGigs"
+                android:hint="Name"
+                android:id="@+id/edtmpname"
+                />
+            <!--...Edittext 2...-->
+            <TextView
+                style="@style/textViewGigs"
+                android:hint="fathername"
+                android:id="@+id/edtmpfathername"
+                />
+            <!--...Edittext 3...-->
+            <TextView
+                style="@style/textViewGigs"
+                android:hint="Height"
+                android:id="@+id/edtmpheight"
+
+                />
+            <TextView
+                style="@style/textViewGigs"
+                android:hint="Age"
+                android:id="@+id/edtmpage"
+
+                />
+            <!--...Edittext 4...-->
+            <TextView
+                style="@style/textViewGigs"
+                android:hint="Place"
+                android:id="@+id/edtmpplace"
+                />
+            <!--...Edittext 5...-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    style="@style/textViewGigs"
+                    android:hint="PermanentAdress"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/edtmppadress"
+
+                    />
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/mapbtn"
+                    android:src="@drawable/mapicon"></ImageView>
+            </RelativeLayout>
+
+            <!--...Edittext 6...-->
+            <TextView
+                style="@style/textViewGigs"
+                android:hint="Contact Number"
+                android:id="@+id/edtmpcontactnumber"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="350dp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:id="@+id/videoplayer"
+
+                android:layout_height="200dp">
+                <VideoView
+                    android:layout_width="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_height="match_parent"
+                    android:id="@+id/mpvedio">
+                </VideoView>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:id="@+id/btnplay"
+                    android:src="@drawable/ic_play_circle_outline_black_24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    ></de.hdodenhof.circleimageview.CircleImageView>
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="gone"
+                    android:id="@+id/progressBarLandScape"
+                    android:layout_height="wrap_content"></ProgressBar>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:id="@+id/btnchatmessage"
+                    android:layout_height="@dimen/_50sdp"
+                    android:src="@drawable/messageicon">
+                </de.hdodenhof.circleimageview.CircleImageView>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:id="@+id/btncall"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:src="@drawable/callicon">
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

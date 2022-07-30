@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/sample"
+            android:layout_alignParentRight="true"
+            android:visibility="visible"
+            android:id="@+id/profile_image_right"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:background="@drawable/background_right_doc"
+            android:layout_toLeftOf="@+id/profile_image_right"
+            android:layout_marginRight="5dp"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:padding="8dp"
+            android:id="@+id/show_message"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_seen"
+            android:visibility="visible"
+            android:textStyle="italic"
+            android:textSize="7dp"
+            android:text="seen"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/show_message"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="8dp"
+            android:layout_marginTop="3dp"
+            android:text="1234567897894561231"
+            android:layout_below="@id/show_message"
+            android:layout_toLeftOf="@+id/profile_image_right"
+            android:layout_marginRight="10dp"
+            android:id="@+id/time_stamp_msg_row"
+            />
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:background="@drawable/background_right_doc"
+            android:padding="5dp"
+            android:layout_toLeftOf="@+id/profile_image_right"
+            android:layout_marginRight="5dp"
+            android:visibility="gone"
+            android:id="@+id/img_msg_right"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="8dp"
+            android:layout_marginTop="3dp"
+            android:layout_below="@id/img_msg_right"
+            android:layout_toLeftOf="@+id/profile_image_right"
+            android:layout_marginRight="12dp"
+            android:id="@+id/time_stamp_msg_row_with_img"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textStyle="italic"
+            android:textSize="7dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img_msg_right"
+            android:id="@+id/txt_seen_with_img"
+
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/login"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard.Activities.Create_Mp_Case">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/doctorColorMain"
+        app:navigationIcon="@drawable/back_btn_white"
+        app:titleTextColor="@color/whiteColor"
+        app:title="Missing Person case"
+        android:id="@+id/toolbar_id_create_gig"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_id_create_gig"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+            <!--...Edittext 1...-->
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:id="@+id/mpimage"
+                android:src="@drawable/sample"
+                android:layout_height="150dp">
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <EditText
+                style="@style/editTextGigs"
+                android:hint="Name"
+                android:id="@+id/edtmpname"
+                />
+            <!--...Edittext 2...-->
+            <EditText
+                style="@style/editTextGigs"
+                android:hint="Last Name"
+                android:id="@+id/edtmpfathername"
+                />
+            <!--...Edittext 3...-->
+            <EditText
+                style="@style/editTextGigs"
+                android:hint="Height"
+                android:id="@+id/edtmpheight"
+
+                />
+            <EditText
+                style="@style/editTextGigs"
+                android:hint="Age"
+                android:id="@+id/edtmpage"
+
+                />
+            <!--...Edittext 4...-->
+            <EditText
+                style="@style/editTextGigs"
+                android:hint="Place"
+                android:id="@+id/edtmpplace"
+                />
+            <!--...Edittext 5...-->
+            <EditText
+                style="@style/editTextGigs"
+                android:hint="Select Location"
+                android:id="@+id/edtmppadress"
+
+                />
+            <!--...Edittext 6...-->
+            <EditText
+                style="@style/editTextGigs"
+                android:hint="Contact Number"
+                android:id="@+id/edtmpcontactnumber"
+
+                />
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Upload vedio"-->
+<!--                android:layout_gravity="center">-->
+
+<!--            </TextView>-->
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Upload"-->
+<!--                android:id="@+id/mpbtnupload"-->
+<!--                android:layout_gravity="center">-->
+
+<!--            </Button>-->
+
+<!--            <VideoView-->
+<!--                android:layout_width="350dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:id="@+id/mpvedio">-->
+
+<!--            </VideoView>-->
+
+            <!--......Button....-->
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:background="@color/doctorColorMain"
+                android:textColor="@color/whiteColor"
+                android:textAllCaps="false"
+                android:layout_margin="15dp"
+                android:id="@+id/save_btn_create_gig"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
