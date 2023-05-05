@@ -14,7 +14,7 @@ Find Missing Person Using AI: It is an android application to locate the missing
  
  Face Detection                           | Detected Profile                             | Delete, Resolve, Edit Case                      | Chat with Reporter
 :-----------------------------------------:|:--------------------------------------------:|:-----------------------------------------------:|:-------------------------------------:
- <img src="Screenshots/Face_Detection.png" width="200">| <img src="Screenshots/Detected_Profile.png" width="200">|<img src="Screenshots/11.menu.png" width="200">|<img src="Screenshots/Chat_with_Reporter.png" width="200">
+ <img src="Screenshots/Face_Detection.png" width="200">| <img src="Screenshots/Detected_Profile.png" width="200">|<img src="Screenshots/Delete_Resolve_Edit.png" width="200">|<img src="Screenshots/Chat_with_Reporter.png" width="200">
  
  
 ## License
