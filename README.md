@@ -1,6 +1,10 @@
 # Laapata-Find-Missing-Person-Using-AI
 Find Missing Person Using AI: It is an android application to locate the missing person using image recognition. Anybody can just upload the missing person/Child's image, then that image is matched to the already uploaded voluntary database using AI. If a match is found, the parent and authority will be informed.
 
+[**Download app here**](https://drive.google.com/file/d/1Zb_rRoAps0FOOLtIK9t9EB-xqDQQRURN/view?usp=sharing)
+
+[__Kindly fill this form for more details__](https://docs.google.com/forms/d/e/1FAIpQLSfmw6i4hEwR2RYDagAlU1sDDNhEGFuHQWLeyMGBydY7n9kEBA/viewform?usp=sf_link)
+
 #### Some Screenshots of this app
 
 
