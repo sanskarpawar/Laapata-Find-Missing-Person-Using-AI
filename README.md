@@ -6,15 +6,15 @@ Find Missing Person Using AI: It is an android application to locate the missing
 
  Login                               | SignUp                                        | Reset Password 			                    | Dashboard
 :------------------------------------------:|:-------------------------------------------:|:-----------------------------------------------:|:----------------------------------------:
- <img src="Screenshots/SignIn.png" width="200"> | <img src="Screenshots/SignUp.png" width="200">  |<img src="Screenshots/Reset_Password.png" width="200">|<img src="Screenshots/Dashboard.png" width="200">
+<img src="https://github.com/sanskarpawar/Laapata-Find-Missing-Person-Using-AI/assets/39761857/85c0ddd7-9c50-4d15-8116-08c74c093f2f"  width="200" height="400"/> | <img src="https://github.com/sanskarpawar/Laapata-Find-Missing-Person-Using-AI/assets/39761857/22c15f13-25c9-4bcb-895a-b92acc4284a7"  width="200" height="400"/>  | <img src="https://github.com/sanskarpawar/Laapata-Find-Missing-Person-Using-AI/assets/39761857/c2ee7904-fcbb-4494-b3eb-2f73108bdecc"  width="200" height="400"/> | <img src="https://github.com/sanskarpawar/Laapata-Find-Missing-Person-Using-AI/assets/39761857/a8fb6f79-3ff2-437a-9cd6-43cc075c415f"  width="200" height="400"/>
 
  Missing Person List                         | Add/Report Case                             | Upload Case with details                      | Police Station Locator
 :-----------------------------------------:|:--------------------------------------------:|:-----------------------------------------------:|:-------------------------------------:
- <img src="Screenshots/Missing_Profile_List.png" width="200">| <img src="Screenshots/Add_report_Case.png" width="200">|<img src="Screenshots/Upload_Case_details.png" width="200">|<img src="Screenshots/Police_station_locator.png" width="200">
+<img src="https://github.com/sanskarpawar/Laapata-Find-Missing-Person-Using-AI/assets/39761857/a8fb6f79-3ff2-437a-9cd6-43cc075c415f" width="200" height="400"/> | <img src="https://github.com/sanskarpawar/Laapata-Find-Missing-Person-Using-AI/assets/39761857/e7126e16-cd96-4580-a5af-8e9ce3e557c7" width="200" height="400"/>| <img src="https://github.com/sanskarpawar/Laapata-Find-Missing-Person-Using-AI/assets/39761857/8c6335b3-a702-479e-b210-d0f70d021a8c" width="200" height="400"/>|<img src="https://github.com/sanskarpawar/Laapata-Find-Missing-Person-Using-AI/assets/39761857/361b56b9-4703-4d72-b197-bca2c701ac76" width="200" height="400"/>
  
  Face Detection                           | Detected Profile                             | Delete, Resolve, Edit Case                      | Chat with Reporter
 :-----------------------------------------:|:--------------------------------------------:|:-----------------------------------------------:|:-------------------------------------:
- <img src="Screenshots/Face_Detection.png" width="200">| <img src="Screenshots/Detected_Profile.png" width="200">|<img src="Screenshots/Delete_Resolve_Edit.png" width="200">|<img src="Screenshots/Chat_with_Reporter.png" width="200">
+<img src="https://github.com/sanskarpawar/Laapata-Find-Missing-Person-Using-AI/assets/39761857/b1dfca7d-59ff-4a36-9180-2f5ad65cc55f" width="200" height="400"/>| <img src="https://github.com/sanskarpawar/Laapata-Find-Missing-Person-Using-AI/assets/39761857/15540fef-7441-4836-86fd-74b59a2828ce" width="200" height="400"/>| <img src="https://github.com/sanskarpawar/Laapata-Find-Missing-Person-Using-AI/assets/39761857/6bc46a6d-650e-4628-9553-740ca77c5792" width="200" height="400"/>| <img src="https://github.com/sanskarpawar/Laapata-Find-Missing-Person-Using-AI/assets/39761857/7cc984b3-d4e9-4b01-9e01-a6d97c4c4e9b" width="200" height="400"/>
  
  
 ## License
